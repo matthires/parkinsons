@@ -1,0 +1,13 @@
+
+# Folders to ignore
+__pycache__/
+
+# Files in folders (but not the folder itself)
+data/*
+!data/
+eval_results/*
+!eval_results/
+models/*
+!models/
+results/*
+!eval_results/
