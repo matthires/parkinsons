@@ -10,4 +10,4 @@ eval_results/*
 models/*
 !models/
 results/*
-!eval_results/
+!results/
