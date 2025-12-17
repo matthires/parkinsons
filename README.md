@@ -188,3 +188,20 @@ python evaluate_model.py   --model-path results/xgb_vowels/<uuid>/best_model.pkl
 - Cross-validation is **grouped by subject** to avoid leakage
 - Patient-level predictions are created by **averaging probabilities**
 - Task filtering must match CSV values or folder names exactly
+
+---
+
+## Requirements
+
+- Python **3.9.18**
+
+The codebase was developed and tested with Python 3.9.18.  
+Other Python versions may work but are not guaranteed.
+
+## Installation of requirements
+
+```bash
+python -m venv .venv
+source .venv/bin/activate   # or .venv\Scripts\activate on Windows
+pip install -U pip
+pip install -r requirements.txt
